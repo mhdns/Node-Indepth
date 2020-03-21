@@ -9,7 +9,7 @@ const http = require('http');
 // but we are going to listen in port 3000 using .listen(<port>, <callback>)
 http.createServer((req, res) => {
   // Sends the res header
-  res.writeHead(200, { 'Content-type': 'text/html' });
+  res.writeHead(200, { 'Content-Type': 'text/html' });
 
   // Sends the response and ends the response
   res.end('<h1>Hello Node.js</h1>');
