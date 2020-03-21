@@ -13,4 +13,5 @@ http.createServer((req, res) => {
 
   // Sends the response and ends the response
   res.end('<h1>Hello Node.js</h1>');
+// eslint-disable-next-line no-console
 }).listen(3000, () => console.log('Server Running in Port 3000...'));
